@@ -1,0 +1,183 @@
+body {
+    background-color: black;
+    background-image: url(travel2.jpg);
+    background-repeat: no-repeat;
+    background-size: 110em 50em;
+
+ 
+ }
+
+#parent{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+    margin-top: 10%;
+
+    
+}
+#top1{
+    padding-left: 10%;
+    
+   
+
+}
+#top2{
+
+    /* background-color: aquamarine; */
+
+}
+#parent2{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 150px 150px;
+    gap: 10px;
+}
+#mid1{
+    /* background-color:blueviolet */
+   
+   
+
+}
+#mid2{
+
+    /* background-color:burlywood; */
+
+}
+#mid3{
+
+    /* background-color:coral; */
+
+}
+#parent4{
+
+    display: grid;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 30px 30px;
+    gap: 5px;
+}
+#semi1{
+    /* background-color:yellow; */
+   
+
+}
+#semi2{
+    /* background-color:rgb(34, 88, 134); */
+   
+
+}
+
+
+#parent3{
+
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 400px 300px;
+    gap: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#down1{
+     background-color:violet;
+
+}
+#down2{
+
+    background-color:rgb(28, 218, 221);
+
+}
+#down3{
+
+    background-color:thistle;
+
+}
+#down4{
+
+    background-color:rgb(71, 10, 238);
+
+}
+#A{
+    color: white;
+    font-size: 5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+   
+}
+#B{
+    color: white;
+    font-size: larger;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid1{
+
+    padding-left: 40%;
+
+}
+#C{
+    color:rgb(149, 155, 154);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#D{
+    padding-left: 10%;
+    color:rgb(149, 155, 154);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#h1:hover{
+    color: white;
+}
+#h2:hover{
+    color: white;
+}
+
+#mid2{
+    padding-left: 40%;
+}
+#E{
+    color:rgb(149, 155, 154);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#F{
+    padding-left: 20%;
+    color:rgb(149, 155, 154);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#mid3{
+    padding-left: 40%;
+}
+#G{
+    color:rgb(149, 155, 154);
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#H{
+    padding-left: 20%;
+    color:rgb(149, 155, 154);
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#I{
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+#J{
+    text-align: center;
+    color: white;
+    font-size: medium;
+}
+img{
+    width: 293px;
+    height: 400px;
+
+  
+}
+img:hover{
+    transform:scale(1.1);
+}
